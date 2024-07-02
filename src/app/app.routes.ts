@@ -5,6 +5,8 @@ import { EstudianteComponent } from './components/estudiante/estudiante.componen
 import { DocenteComponent } from './components/docente/docente.component';
 import { AdministrativoComponent } from './components/administrativo/administrativo.component';
 import { VisitanteComponent } from './components/visitante/visitante.component';
+import { RegistrarAsistenciaComponent } from './components/registrar-asistencia/registrar-asistencia.component';
+import { LocalizarAulaComponent } from './components/localizar-aula/localizar-aula.component';
 
 const routes: Routes = [
     { path: '', redirectTo: 'bienvenida', pathMatch: 'full' },
@@ -13,7 +15,10 @@ const routes: Routes = [
     { path: 'estudiante', component: EstudianteComponent },
     { path: 'docente', component: DocenteComponent },
     { path: 'administrativo', component: AdministrativoComponent },
-    { path: 'visitante', component: VisitanteComponent}
+    { path: 'visitante', component: VisitanteComponent},
+    { path: 'registrar-asistencia', component: RegistrarAsistenciaComponent},
+    { path: 'reservar-espacio', component: RegistrarAsistenciaComponent},
+    { path: 'localizar-aula', component: LocalizarAulaComponent}
 ];
 
 export { routes };
