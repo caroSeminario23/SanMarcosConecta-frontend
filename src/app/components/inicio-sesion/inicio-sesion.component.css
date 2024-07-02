@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    line-height: normal;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .bienvenida-admi-child {
+    position: absolute;
+    top: 5vh;
+    left: 5vw;
+    border-radius: 6vw;
+    background-color: #f9df94;
+    width: 100vw;
+    height: 90vh;
+    cursor: pointer;
+    z-index: 1; /* Asegura que este elemento esté detrás del formulario */
+  }
+  
+  .center-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    z-index: 2; /* Asegura que este contenedor esté encima */
+    position: relative;
+  }
+  
+  .sanmarcosconecta, .bienvenido-a {
+    font-weight: 800;
+  }
+  
+  .sanmarcosconecta {
+    font-size: 5vw;
+  }
+  
+  .bienvenido-a {
+    font-size: 4vw;
+    font-weight: 500;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    background: rgba(255, 255, 255, 0.8); /* Fondo semitransparente para resaltar el formulario */
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Ancho del formulario */
+    max-width: 400px; /* Ancho máximo del formulario */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .login-form label {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .login-form input {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 100%; /* Ajuste para que ocupe todo el ancho del formulario */
+  }
+  
+  .login-form button {
+    margin-top: 1.5rem;
+    padding: 0.7rem 1.5rem;
+    font-size: 1.2rem;
+    background-color: #54343f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #432b34;
+  }
+  
+  .bienvenida-admi {
+    width: 100vw;
+    position: absolute;
+    background-color: #e77a77;
+    height: 100vh;
+    overflow: hidden;
+    text-align: left;
+    font-size: 5vw;
+    color: #54343f;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  @media (max-width: 600px) {
+    .bienvenida-admi-child,
+    .sanmarcosconecta,
+    .bienvenido-a,
+    .bienvenida-admi {
+      width: 100%;
+      position: relative;
+      top: 0;
+      left: 0;
+      font-size: 5vw;
+      height: auto;
+    }
+  
+    .login-form {
+      width: 90%;
+      max-width: 300px; /* Ancho máximo ajustado para pantallas más pequeñas */
+    }
+  
+    .login-form input {
+      width: 100%; /* Ajuste para que ocupe todo el ancho del formulario en pantallas pequeñas */
+    }
+  }
+  
