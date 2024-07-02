@@ -38,35 +38,44 @@ body {
 
 .men-principal-personal-admi-item,
 .men-principal-personal-admi-inner,
-.rectangle-div,
-.rectangle-div2 {
+.rectangle-div {
     position: absolute;
     border-radius: 3.25vw;
     background-color: #f6a570;
-    width: 15vw;
-    height: 10vh;
-    text-align: center;
+    width: 40vw;
+    height: 20vh;
+    text-align: left;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .men-principal-personal-admi-item {
-    top: 10vh;
+    top: 30vh;
     left: 5vw;
 }
 
 .men-principal-personal-admi-inner {
-    top: 50vh;
+    top: 40vh;
     left: 5vw;
 }
 
 .rectangle-div {
-    top: 90vh;
+    top: 50vh;
     left: 5vw;
 }
 .rectangle-div2{
-    top: 44.44vh;
+    position: absolute;
+    border-radius: 3.25vw;
+    background-color: #f6a570;
+    width: 20vw;
+    height: 5vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    top: 85vh;
     left: 70vw;
 
 }
