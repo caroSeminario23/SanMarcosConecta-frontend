@@ -9,32 +9,38 @@ body {
 }
 
 .outer-container {
+    position: absolute;
+    top: 5vh; /* Cambiado de rem a vw */
+    left: 5vw; /* Cambiado de rem a vw */
+    border-radius: 6vw; /* Cambiado de px a vw para mantener la proporción */
     background-color: #f9df94;
-    border-radius: 20px;
-    padding: 20px;
+    width: 90vw; /* Cambiado de rem a vw para adaptarse al ancho del viewport */
+    height: 90vh; /* Cambiado de rem a vh para adaptarse al alto del viewport */
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 170%;
-    max-width: 1200px; /* Ajuste para el ancho máximo del contenedor */
-    height: 300%; /* Ajuste para el alto del contenedor */
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 .inner-container {
-    width: 120%;
+    width: 95%;
+    padding: 30px;
+    align-items: center;
+    border-color: black;
+    flex-direction: column;
 }
 
 h1 {
     font-family: Inter;
-    font-size: 3vw; /* Ajuste responsive del tamaño del texto */
+    font-size: 4.5vw; /* Ajuste responsive del tamaño del texto */
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    margin-top: 80px;
 }
 
 .form-label {
     font-family: Inter;
-    font-size: 2vw; /* Ajuste responsive del tamaño del texto */
+    font-size: 3vw; /* Ajuste responsive del tamaño del texto */
 }
 
 .form-control {
@@ -42,9 +48,9 @@ h1 {
     background-color: #cad5ad;
     font-family: Inter;
     font-weight: 500;
-    font-size: 1.5vw; /* Ajuste responsive del tamaño del texto */
+    font-size: 2vw; /* Ajuste responsive del tamaño del texto */
     text-align: center;
-    height: 4vw; /* Ajuste responsive de la altura del control */
+    height: 5vw; /* Ajuste responsive de la altura del control */
 }
 
 .btn {
@@ -57,4 +63,8 @@ h1 {
     text-align: center;
     color: black;
     padding: 10px 20px;
+}
+
+.row mb-3 {
+    align-items: center;
 }
