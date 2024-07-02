@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    line-height: normal;
+    font-family: 'Inter', sans-serif;
+}
+
+.men-principal-personal-admi {
+    width: 100%;
+    position: relative;
+    background-color: #e77a77;
+    height: 100vh;
+    overflow: hidden;
+    text-align: left;
+    font-size: 2.5vw;
+    color: #000;
+    font-family: Inter, sans-serif;
+}
+
+.men-principal-personal-admi-child {
+    position: absolute;
+    top: 6.94vh;
+    left: 3.12vw;
+    border-radius: 4vw;
+    background-color: #f9df94;
+    width: 93.62vw;
+    height: 86.39vh;
+}
+
+.men-principal {
+    position: absolute;
+    top: 13.61vh;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 4.5vw;
+    color: #54343f;
+}
+
+.bienvenido {
+    position: absolute;
+    top: 20.56vh;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3.5vw;
+    color: #54343f;
+    text-align: center;
+    width: 100%;
+}
+
+.seleccione-una-opcin {
+    position: absolute;
+    top: 31.11vh;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3vw;
+    font-weight: 500;
+    text-align: center;
+    width: 100%;
+}
+
+.men-principal-personal-admi-item,
+.men-principal-personal-admi-inner,
+.rectangle-div {
+    position: absolute;
+    border-radius: 3.25vw;
+    background-color: #f6a570;
+    width: 18vw;
+    height: 35vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.men-principal-personal-admi-item {
+    top: 44.44vh;
+    left: 12vw;
+}
+
+.men-principal-personal-admi-inner {
+    top: 44.44vh;
+    left: 41vw;
+}
+
+.rectangle-div {
+    top: 44.44vh;
+    left: 70vw;
+}
+
+.registrar {
+    margin: 0;
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+@media (max-width: 600px) {
+    .men-principal-personal-admi-child,
+    .men-principal,
+    .bienvenido,
+    .seleccione-una-opcin,
+    .men-principal-personal-admi-item,
+    .men-principal-personal-admi-inner,
+    .rectangle-div {
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        font-size: 5vw;
+        height: auto;
+    }
+
+    .registrar {
+        font-size: 5vw;
+    }
+}
