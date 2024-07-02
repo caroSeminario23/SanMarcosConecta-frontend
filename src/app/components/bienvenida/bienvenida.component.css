@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  .bienvenida-admi-child {
+    position: absolute;
+    top: 5vh; /* Cambiado de rem a vw */
+    left: 5vw; /* Cambiado de rem a vw */
+    border-radius: 6vw; /* Cambiado de px a vw para mantener la proporción */
+    background-color: #f9df94;
+    width: 90vw; /* Cambiado de rem a vw para adaptarse al ancho del viewport */
+    height: 90vh; /* Cambiado de rem a vh para adaptarse al alto del viewport */
+    cursor: pointer;
+  }
+  
+  .center-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Asegura que el contenedor tenga la altura total de la ventana */
+  }
+  
+  .sanmarcosconecta, .bienvenido-a {
+    position: relative;
+    font-weight: 800;
+  }
+  
+  
+  .bienvenido-a {
+    font-size: 4vw; /* Cambiado de rem a vw */
+    font-weight: 500;
+  }
+  
+  
+  
+  .bienvenida-admi {
+    width: 100vw;
+    position: absolute;
+    background-color: #e77a77;
+    height: 100vh; /* Cambiado de rem a vh */
+    overflow: hidden;
+    text-align: left;
+    font-size: 5vw; /* Cambiado de rem a vw */
+    color: #54343f;
+    font-family: Inter;
+  }
+  
+  /* Ejemplo de Media Query para pantallas menores de 600px */
+  @media (max-width: 600px) {
+    .bienvenida-admi-child, .sanmarcosconecta, .bienvenido-a, .bienvenida-admi {
+      width: 100%;
+      position: relative;
+      top: 0;
+      left: 0;
+      font-size: 5vw;
+      height: auto;
+    }
+  }
