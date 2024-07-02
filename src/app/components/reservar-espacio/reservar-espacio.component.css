@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    line-height: normal;
+    background-color: #e77a77;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.outer-container {
+    position: absolute;
+    top: 5vh; /* Cambiado de rem a vw */
+    left: 5vw; /* Cambiado de rem a vw */
+    border-radius: 6vw; /* Cambiado de px a vw para mantener la proporción */
+    background-color: #f9df94;
+    width: 90vw; /* Cambiado de rem a vw para adaptarse al ancho del viewport */
+    height: 90vh; /* Cambiado de rem a vh para adaptarse al alto del viewport */
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-container {
+    width: 95%;
+    padding: 30px;
+    align-items: center;
+    border-color: black;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: Inter;
+    font-size: 4.5vw; /* Ajuste responsive del tamaño del texto */
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+
+.form-label {
+    font-family: Inter;
+    font-size: 2vw; /* Ajuste responsive del tamaño del texto */
+}
+
+.form-control {
+    border-radius: 20px;
+    background-color: #cad5ad;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 2vw; /* Ajuste responsive del tamaño del texto */
+    text-align: center;
+    height: 5vw; /* Ajuste responsive de la altura del control */
+    width: 100%;
+}
+
+.btn {
+    border: none;
+    border-radius: 20px;
+    background-color: #f9df94;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 2.5vw; /* Ajuste responsive del tamaño del texto */
+    text-align: center;
+    color: black;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.row mb-3 {
+    align-items: center;
+}
+
+.recuadro-externo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.recuadro-interno1 {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #F6A570;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.recuadro-interno2 {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border-radius: 20px;
+    margin-left: 10px;
+    padding-top: 21%;
+    padding-bottom: 21%;
+    text-align: center;
+    color: white;
+}

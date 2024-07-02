@@ -37,51 +37,51 @@ body {
 
 
 .men-principal-personal-admi-item,
-.men-principal-personal-admi-inner,
-.rectangle-div {
+.mapa,
+.enviar_notificacion {
     position: absolute;
     border-radius: 3.25vw;
     background-color: #f6a570;
-    width: 40vw;
-    height: 20vh;
-    text-align: left;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .men-principal-personal-admi-item {
+    width: 30vw;
+    height: 20vh;
+    text-align: left;
     top: 30vh;
     left: 5vw;
+    flex-direction: column; 
+    align-items: flex-start; 
+    justify-content: center;
 }
 
-.men-principal-personal-admi-inner {
-    top: 40vh;
-    left: 5vw;
+.mapa {
+    width: 50vw;
+    height: 50vh;
+    text-align: center;
+    top: 30vh;
+    left: 40vw;
 }
-
-.rectangle-div {
-    top: 50vh;
-    left: 5vw;
-}
-.rectangle-div2{
-    position: absolute;
-    border-radius: 3.25vw;
-    background-color: #f6a570;
+.enviar_notificacion{
     width: 20vw;
     height: 5vh;
     text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
     top: 85vh;
     left: 70vw;
 
 }
 .registrar {
     margin: 0;
-    font-size: 1.5vw;
+    margin-left: 2vw;
+    font-size: 2vw;
+    font-weight: 500;
+}
+.notificacion {
+    margin: 0;
+    font-size: 2vw;
     font-weight: 500;
 }
 
