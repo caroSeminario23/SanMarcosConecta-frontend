@@ -4,6 +4,7 @@ import { InicioSesionComponent } from './components/inicio-sesion/inicio-sesion.
 import { EstudianteComponent } from './components/estudiante/estudiante.component';
 import { DocenteComponent } from './components/docente/docente.component';
 import { AdministrativoComponent } from './components/administrativo/administrativo.component';
+import { VisitanteComponent } from './components/visitante/visitante.component';
 
 const routes: Routes = [
     { path: '', redirectTo: 'bienvenida', pathMatch: 'full' },
@@ -12,6 +13,7 @@ const routes: Routes = [
     { path: 'estudiante', component: EstudianteComponent },
     { path: 'docente', component: DocenteComponent },
     { path: 'administrativo', component: AdministrativoComponent },
+    { path: 'visitante', component: VisitanteComponent}
 ];
 
 export { routes };

@@ -57,7 +57,6 @@ body {
     width: 100%;
 }
 
-.men-principal-personal-admi-item,
 .men-principal-personal-admi-inner {
     position: absolute;
     border-radius: 3.25vw;
@@ -70,14 +69,9 @@ body {
     justify-content: center;
 }
 
-.men-principal-personal-admi-item {
-    top: 44.44vh;
-    left: 20vw;
-}
-
 .men-principal-personal-admi-inner {
     top: 44.44vh;
-    left: 60vw;
+    left: 40vw;
 }
 
 .registrar {
@@ -91,7 +85,6 @@ body {
     .men-principal,
     .bienvenido,
     .seleccione-una-opcin,
-    .men-principal-personal-admi-item,
     .men-principal-personal-admi-inner {
         width: 100%;
         position: relative;
