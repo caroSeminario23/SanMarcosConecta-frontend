@@ -10,7 +10,7 @@ body {
     left: 5vw;
     border-radius: 6vw;
     background-color: #f9df94;
-    width: 100vw;
+    width: 90vw;
     height: 90vh;
     cursor: pointer;
     z-index: 1; /* Asegura que este elemento esté detrás del formulario */

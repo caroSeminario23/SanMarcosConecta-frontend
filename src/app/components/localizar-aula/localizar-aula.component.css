@@ -55,6 +55,17 @@ h1 {
     width: 100%;
 }
 
+.form-control-aula {
+    border-radius: 20px;
+    background-color: #cad5ad;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 2vw; /* Ajuste responsive del tamaño del texto */
+    text-align: center;
+    height: 5vw; /* Ajuste responsive de la altura del control */
+    width: 100%;
+}
+
 .btn {
     border: none;
     border-radius: 20px;
@@ -113,8 +124,8 @@ h1 {
     background-color: black;
     border-radius: 20px;
     margin-left: 4%;
-    padding-top: 19%;
-    padding-bottom: 21%;
+    padding-top: 25%;
+    padding-bottom: 18%;
     text-align: center;
     color: white;
 }
